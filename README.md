@@ -123,10 +123,12 @@ Supported video filter modes are:
 
 - Virtual background
   ([`VideoFilterMode.VIRTUAL_BACKGROUND`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#virtual-background))
-  -Set a custom image to be drawn behind you as your background
+  \- Set a custom image to be drawn behind you as your background
 - Background blur
   ([`VideoFilterMode.BACKGROUND_BLUR`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#background-blur))
-  -Blur your background
+  \- Blur your background
+- Face Framing ([`VideoFilterMode.FACE_TRACK`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#face-track))
+  \- Initiate face framing
 - None ([`VideoFilterMode.NONE`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#none)) - No
   video filtering, just pass video frames as-is. Prefer this over destroying the video filter to avoid repeatedly
   reallocating video filter resources, which can cause visible hiccups.
