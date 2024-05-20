@@ -139,6 +139,9 @@ Supported video filter modes include:
 - Background blur
   ([`VideoFilterMode.BACKGROUND_BLUR`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#background-blur)) -
   Users can blur their background.
+- Face track
+  ([`VideoFilterMode.FACE_TRACK`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#face-track)) -
+  Automatically adjusts the video to keep the user's face centered and properly framed within the view.
 - None ([`VideoFilterMode.NONE`](https://github.com/infobip/infobip-rtc-extensions-js/wiki/VideoFilterMode#none)) -
   No video filtering is applied; video frames are passed through unchanged. This option is recommended over repeatedly
   reallocating video filter resources to avoid visible disruptions.
